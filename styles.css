@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    cursor: default; /* Default cursor */
 }
 
 .container {
@@ -23,7 +24,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #00ff00;
+}
+
+.content {
+    background-color: rgba(0, 255, 0, 0.8); /* Green box */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 h1, h2 {
@@ -56,3 +62,7 @@ img {
 .show {
     display: block;
 }
+
+/* Change cursor to arrow when hovering over the sides */
+body:hover {
+    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mJ8//8/AwAIgD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B0gD4B
