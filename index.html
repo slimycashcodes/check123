@@ -8,28 +8,41 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>About Me</h1>
-            <p>Welcome to my website !</p>
-        </header>
-        <section class="content">
-            <h2>Who Am I?</h2>
-            <p>I'm a passionate software developer currently doing a Major in CSE at SSNCE, with a love for coding and design.</p>
-            <h2>My Skills</h2>
+        <div class="page" id="intro">
+            <header>
+                <h1>About Me</h1>
+                <p>Welcome to my digital space!</p>
+            </header>
+            <section class="content">
+                <h2>Who Am I?</h2>
+                <p>I'm a passionate CODER currently doing a Major in CS at SSNCE, with a love for coding and design.</p>
+            </section>
+        </div>
+
+        <div class="page" id="profiles">
+            <h2>My Profiles</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python (Proficient)</li>
-                <li>C++ (Basic Knowledge)</li>
-                <li>React</li>
-                <li>Node.js</li>
+                <li><a href="https://github.com/slimycashcodes" target="_blank">Follow me on Github</a></li>
+                <li><a href="https://leetcode.com/u/Rahul_Suresh/" target="_blank">Compete me on LeetCode</a></li>
+                <li><a href="https://www.hackerrank.com/profile/rahulhvdc" target="_blank">Grow with me on HackerRank</a></li>
             </ul>
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:rahulhvdc@gmail.com">My email Address</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/rahul-suresh-92a124256/">My LinkedIn Profile</a></p>
-        </section>
+        </div>
+
+        <div class="page" id="likes-dislikes">
+            <h2>My Likes and Dislikes</h2>
+            <div class="image-container">
+                <img src="i1.png" alt="Image 1" class="hidden" onclick="showImage(this)">
+                <img src="i2.png" alt="Image 2" class="hidden" onclick="showImage(this)">
+                <img src="i3.png" alt="Image 3" class="hidden" onclick="showImage(this)">
+            </div>
+        </div>
+
+        <div class="page" id="thank-you">
+            <h2>Thank You!</h2>
+            <p>Thank you for visiting my website!</p>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
